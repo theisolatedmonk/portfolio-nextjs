@@ -61,13 +61,14 @@ export default function Home() {
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:span-2">
           <p>
-            Welcome to my portfolio! I'm a versatile frontend developer
-            specializing in crafting engaging and responsive web applications.{" "}
+            {
+              " Welcome to my portfolio! I'm a versatile frontend developer specializing in crafting engaging and responsive web applications."
+            }
           </p>
           <p>
-            With a strong command of React.js, Tailwind CSS, and TypeScript,
-            along with a solid foundation in sorting algorithms, I'm dedicated
-            to building visually stunning and high-performance user interfaces.
+            {
+              "With a strong command of React.js, Tailwind CSS, and TypeScript, along with a solid foundation in sorting algorithms, I'm dedicated to building visually stunning and high-performance user interfaces."
+            }
           </p>
           <p></p>
         </div>
