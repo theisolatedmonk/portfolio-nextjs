@@ -9,7 +9,7 @@ export default function Home() {
           Home
         </h1>
       </div>
-      <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
+      <div className="items-center space-y-2 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:space-y-0 ">
         <div className="flex flex-col items-center pt-8">
           <Image
             src={Me}
@@ -59,7 +59,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:span-2">
+        <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert  xl:span-2   ">
           <p>
             {
               " Welcome to my portfolio! I'm a versatile frontend developer specializing in crafting engaging and responsive web applications."
